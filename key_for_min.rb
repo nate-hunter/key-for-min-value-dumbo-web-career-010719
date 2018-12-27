@@ -7,7 +7,7 @@ lowest_key = []
 lowest_value = []
 
 name_hash.each do |key, value|
-  if 
+  if lowest_value == 
   
 
 
