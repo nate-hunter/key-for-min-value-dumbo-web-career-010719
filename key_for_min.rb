@@ -12,7 +12,7 @@ lowest_key = nil
 lowest_value = nil  
 
   name_hash.each do |key, val|
-    if lowest_value == nil || val < lowest_value # 1st part is true the first time, then false everytime after. Each new iterated value will be compared against the lowest value. If it is the lowest value, it will be set to lowest_value and its key will be set to lowest_value, which will be returned after each element iterated over.  
+    if lowest_value == nil || val < lowest_value   
         lowest_value = val
         lowest_key = key
       end
